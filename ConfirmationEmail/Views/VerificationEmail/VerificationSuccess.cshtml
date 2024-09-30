@@ -1,0 +1,124 @@
+﻿@{
+    Layout = null; 
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verify Your Email</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #586ee0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .email-container {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            text-align: center;
+        }
+
+        .tick-mark-container {
+            position: relative;
+            display: inline-block;
+            margin-bottom: 20px;
+            width: 80px;
+            height: 80px;
+        }
+
+        .tick-mark {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 60px;
+            color: #4caf50;
+            animation: pulse 1.5s infinite;
+        }
+
+        .tick-mark-container::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 4px solid #4caf50;
+            transform: translate(-50%, -50%);
+            animation: pulse 1.5s infinite;
+            z-index: 0;
+        }
+
+        @@keyframes pulse {
+            0% {
+                transform: translate(-50%, -50%) scale(1);
+                opacity: 1;
+            }
+
+            50% {
+                transform: translate(-50%, -50%) scale(1.1);
+                opacity: 0.5;
+            }
+
+            100% {
+                transform: translate(-50%, -50%) scale(1);
+                opacity: 1;
+            }
+        }
+
+        .email-container h1 {
+            font-size: 22px;
+            color: #333333;
+            margin-bottom: 10px;
+        }
+
+        .email-container p {
+            font-size: 14px;
+            color: #555555;
+            margin-bottom: 25px;
+            line-height: 1.5;
+        }
+
+        .email-container .footer-text {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #888888;
+            line-height: 1.4;
+        }
+
+        .email-container .footer-text a {
+            color: #4285f4;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="email-container">
+        <div class="tick-mark-container">
+            <div class="tick-mark">&#10003;</div>
+        </div>
+        <h1>Verification of your email address</h1>
+        <strong style="text-align: center;">Congratulations!</strong>
+        <p>Your Email is Verified Successfully. Thank You For Visiting our Website. Kindly return to our website to review and book the available packages.</p>
+        <p class="footer-text">By signing up or logging in, you acknowledge and agree to MWalk DMC's
+            <a href="#">General Terms of Use</a> and <a href="#">Privacy Policy</a>.
+        </p>
+    </div>
+</body>
+
+</html>
+

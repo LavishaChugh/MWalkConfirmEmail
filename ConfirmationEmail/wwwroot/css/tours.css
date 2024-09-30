@@ -1,0 +1,160 @@
+
+.hero-section {
+    background-image: url('image/tours.jpg');
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.section-title {
+    margin: 40px 0 20px;
+    text-align: center;
+}
+
+.card {
+    margin-bottom: 20px;
+    color: black;
+    height: 350px;
+    border-radius: 20px;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-img-top {
+    height: 160px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 0.9rem;
+}
+
+.card-text small {
+    color: orangered;
+    border: 1px solid rgb(255, 114, 62);
+    padding: 3px 3px;
+}
+
+.tickets .row {
+    margin-bottom: 40px;
+}
+
+.accordion-flush {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+    border: 1px solid rgba(167, 167, 167, 0.694);
+    border-radius: 10px;
+}
+
+.accordion-header button {
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 30px;
+    letter-spacing: 1px;
+}
+
+.accordion-body {
+    color: #666;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.dropdown-content {
+    padding: 20px;
+}
+
+.dropdown-content h3 {
+    font-size: 24px;
+    margin-bottom: 35px;
+    margin-top: 40px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.section ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.section ul li a {
+    text-decoration: none;
+    color: rgb(138, 137, 137);
+    font-size: 16px;
+}
+
+.section ul li a:hover {
+    color: orangered;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    background-color: #e9ecef;
+    font-size: 14px;
+    border-top: 1px solid #e7e7e7;
+}
+.form-control{
+    height: 50px;
+    border: 1px solid ;
+}
+.txt-search {
+    position: relative;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    display: none;
+    border-radius: 20px; 
+    padding: 10px;
+    margin-top: 5px;
+}
+.form-control:focus + .dropdown-menu {
+    display: block;
+}
+.dropdown-item {
+    display: inline-block;
+    width: 29%; 
+    margin: 5px;
+    text-align: center;
+    background-color: #f1f1f1; 
+    border: 1px solid #ddd;
+    border-radius: 20px; 
+}
+.dropdown-item:hover{
+    background-color: rgba(255, 90, 30, 0.889);
+    color: white;
+}
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    background-color: #e9ecef;
+    font-size: 14px;
+    border-top: 1px solid #e7e7e7;
+}

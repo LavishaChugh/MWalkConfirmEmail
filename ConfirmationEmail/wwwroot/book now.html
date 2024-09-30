@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/ticket.css">
+</head>
+
+<body>
+    <div class="container mt-5 ">
+        <div class="step-progress">
+            <div class="step complete">
+                <div class="step-circle">✔</div>
+                <p style="font-weight: bold;">Choose booking</p>
+            </div>
+            <div class="step between">
+                <div class="step-circle">≡</div>
+                <p style="font-weight: bold;">Enter info</p>
+            </div>
+            <div class="step">
+                <div class="step-circle"></div>
+                <p style="color: #d8d6d6; font-weight: bold;">Pay</p>
+            </div>
+        </div>
+
+        <h2 class="text-center">Enter info</h2>
+        <div class="booking-details">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="info">
+                        <h4>Other info</h4>
+                        <div class="d-flex align-items-start mt-3 media">
+                            <img src="https://res.klook.com/image/upload/fl_lossy.progressive,q_65,f_auto/c_fill,w_981,h_621/activities/aqv7u6qgukb6sad0ia6n.jpg"
+                                class="mr-3" alt="Cruise">
+                            <div>
+                                <h5 class="ms-4">Chao Phraya Princess Cruise in Bangkok</h5>
+                                <p class="ms-4">SUNSET Cruise Ticket at Asiatique Pier [Cruising Time: 17:00-18:30]</p>
+                            </div>
+                        </div>
+                        <div class="container mt-5">
+                            <div class="form-section">
+                                <h5>Contact info</h5>
+                                <div class="form-group">
+                                    <label for="name">Enter Your Name<span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control" id="name" placeholder="Enter Your Name">
+                                    <div class="invalid-feedback">Please enter</div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Enter Your Email<span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control" id="email" placeholder="Enter Your Email">
+                                    <div class="invalid-feedback">Please enter</div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Enter Your Phone Number<span class="text-danger">*</span></label>
+                                    <input type="number" class="form-control" id="phone"
+                                        placeholder="Enter Your Phone Number">
+                                    <div class="invalid-feedback">Please provide a date</div>
+                                </div>
+                                <button class="btn payment" onclick="validateForm()">Go to Payment</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="summary" id="summary">
+                        <h4 id="package-title">Package Title</h4>
+                        <p id="package-time">Package Time</p>
+                        <p>Free cancellation (24-hours notice)</p>
+                        <hr>
+                        <div class="d-flex justify-content-between">
+                            <p>Date</p>
+                            <p>18 Aug 2024</p>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <p>Quantity</p>
+                            <p>Adult x1</p>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <p>Total</p>
+                            <p id="total-price">US$ 0.00</p>
+                        </div>
+                        <hr>
+                        <div class="d-flex justify-content-between">
+                            <p>Subtotal</p>
+                            <p id="subtotal-price">US$ 0.00</p>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <p>Payment</p>
+                            <p class="text-danger" id="payment-price">US$ 0.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="footer-bottom">
+        &copy; 2014-2024 Klook. All rights reserved.
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+    <script src="jvscript.js"></script>
+</body>
+
+</html>

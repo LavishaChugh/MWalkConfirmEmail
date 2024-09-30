@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="images/logo.jpeg" >
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <div class="col-md-4 d-flex justify-content-center justify-content-md-start ms-5"
+                onclick="window.open('index.html', '_blank')">
+                <img src="images/logo.jpeg" style="width: 23%;">
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav flex-row flex-wrap justify-content-center">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownDestinations" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Explore Destinations
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownDestinations">
+                            <div class="dropdown-item"><a href="Bangkok.html">Bangkok</a></div>
+                            <div class="dropdown-item"><a href="Pattaya.html">Pattaya</a></div>
+                            <div class="dropdown-item"><a href="Phuket.html">Phuket</a></div>
+                            <div class="dropdown-item"><a href="koh samui.html">Koh Samui</a></div>
+                            <div class="dropdown-item"><a href="krabi.html">Krabi</a></div>
+                            <div class="dropdown-item"><a href="chiang rai.html">Chiang Rai</a></div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="thailandtours.html" id="navbarDropdownTours" role="button"
+                            aria-expanded="false">
+                            Tours
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="thailandtours.html" id="navbarDropdownTickets" role="button"
+                            aria-expanded="false">
+                            Attraction Tickets
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About us.html" id="aboutus" role="button" aria-expanded="false">
+                            About Us
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="fixedTextCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="background-image" style="background-image: url('image/homepageslider1.webp');">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="background-image" style="background-image: url('image/homepageslider2.webp');">
+                </div>
+            </div>
+        </div>
+        <div class="carousel-caption fixed-caption d-none d-md-block">
+            <h5>Your world of joy</h5>
+            <p>From local escapes to far-flung adventures, find what makes you happy anytime, anywhere</p>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#fixedTextCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#fixedTextCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container card-section">
+        <h2 class="text-start">Best on MWalk DMC</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card-container">
+                    <div class="card-content">
+                        <h3 class="card-title">Top-Rated things to do in Bangkok</h3>
+                        <hr>
+                        <div class="item" onclick="window.open('SkyWalk ticket.html', '_blank')">
+                            <div class="item-number">1</div>
+                            <img src="images/tower.jpg" alt="Bangkok Erawan Shrine">
+                            <div style="cursor: pointer;">
+                                <div class="font-weight-bold">Mahanakhon SkyWalk, Make a wish</div>
+                                <div class="card-text">Experience Thailand's tallest observatory!</div>
+                            </div>
+                        </div>
+                        <div class="item" onclick="window.open('princess cruise.html', '_blank')">
+                            <div class="item-number">2</div>
+                            <img src="images/princess-cruise.jpg" alt="Mahanakhon SkyWalk">
+                            <div style="cursor: pointer;">
+                                <div class="font-weight-bold">Princess Cruise Ticket in Bangkok</div>
+                                <div class="card-text">The efficacious Cruise Ticket!</div>
+                            </div>
+                        </div>
+                        <div class="item" onclick="window.open('safari world.html', '_blank')">
+                            <div class="item-number">3</div>
+                            <img src="images/safari-world.jpg" alt="Dream World Ticket">
+                            <div style="cursor: pointer;">
+                                <div class="font-weight-bold">Dream World Ticket in Bangkok</div>
+                                <div class="card-text">Enjoy an array of exciting rides, all here, in Bangkok!</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card-container">
+                    <div class="card-content">
+                        <h3 class="card-title">Top-Rated things to do in Pattaya</h3>
+                        <hr>
+                        <div class="item" onclick="window.open('pattaya island.html', '_blank')">
+                            <div class="item-number">1</div>
+                            <img src="images/pattaya-island.jpg" alt="Bangkok Erawan Shrine">
+                            <div style="cursor: pointer;">
+                                <div class="font-weight-bold">Pattaya Island</div>
+                                <div class="card-text">Koh Larn and Koh Sak Day Trip!</div>
+                            </div>
+                        </div>
+                        <div class="item" onclick="window.open('nemo island.html', '_blank')">
+                            <div class="item-number">2</div>
+                            <img src="images/nemo-island.jpg" alt="Mahanakhon SkyWalk">
+                            <div style="cursor: pointer;">
+                                <div class="font-weight-bold">Nemo Island</div>
+                                <div class="card-text">Nemo Island Experience with Drone!</div>
+                            </div>
+                        </div>
+                        <div class="item" onclick="window.open('Elephant sanctuary.html', '_blank')">
+                            <div class="item-number">3</div>
+                            <img src="images/jungle-sanctuary.jpg" alt="Dream World Ticket">
+                            <div style="cursor: pointer;">
+                                <div class="font-weight-bold">Elephant Jungle Sanctuary Ticket in Pattaya</div>
+                                <div class="card-text">Elephant Jungle Sanctuary, Pattaya!</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card-container">
+                    <div class="card-content">
+                        <h3 class="card-title">Top things to do in Phuket</h3>
+                        <hr>
+                        <div class="item" onclick="window.open('phi-phi island.html', '_blank')">
+                            <div class="item-number">1</div>
+                            <img src="images/phi-phi.jpg"
+                                alt="Genting SkyWorlds Theme Park">
+                            <div style="cursor: pointer;">
+                                <div class="font-weight-bold">Phi-Phi Island</div>
+                                <div class="card-text">Full Day Tour - Phuket!</div>
+                            </div>
+                        </div>
+                        <div class="item" onclick="window.open('jungle-sanctuary-phuket.html', '_blank')">
+                            <div class="item-number">2</div>
+                            <img src="images/jungle-sanctuary-phuket.jpg"
+                                alt="Zoo Negara Ticket">
+                            <div style="cursor: pointer;">
+                                <div class="font-weight-bold">Elephant Jungle Sanctuary!</div>
+                                <div class="card-text">Enjoy the day with the Elephants, Wash them, Play with them!</div>
+                            </div>
+                        </div>
+                        <div class="item" onclick="window.open('Buddha.html', '_blank')">
+                            <div class="item-number">3</div>
+                            <img src="images/big-buddha.jpg"
+                                alt="Sunway Lagoon Ticket">
+                            <div style="cursor: pointer;">
+                                <div class="font-weight-bold">Phuket: Big Buddha,</div>
+                                <div class="card-text">Enjoy the view of Big Buddha in Phuket!</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container custom-card-section">
+        <h2 class="text-start">Inspiration for your itinerary</h2>
+        <div class="custom-card-row">
+
+            <div class="col-md-6">
+                <div class="custom-card-container" style="flex: 1; min-width: 300px;"
+                    onclick="window.open('Bangkok.html', '_blank')">
+                    <img class="custom-card-image" src="images/itenary.webp"
+                        alt="All Time Favourite Activities in Dubai">
+                    <div class="custom-card-overlay">
+                        <div>
+                            <div class="custom-card-title">All Time Favourite Activities in Bangkok</div>
+                            <div class="custom-card-text">Don't forget to check out these activities while you're here
+                            </div>
+                        </div>
+                        <button class="custom-card-button">See activities</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container next-destinations-section">
+        <h2 class="text-start">Where to next?</h2>
+        <div class="destination-card-row">
+            <div class="destination-card" style="flex: 1; min-width: 150px;"
+                onclick="window.open('koh samui.html', '_blank')">
+                <img class="destination-image" src="images/princess-cruise-2.jpg" alt="Dubai">
+                <div class="destination-overlay">
+                    <div>
+                        <div class="destination-title">Koh Samui</div>
+                    </div>
+                </div>
+            </div>
+            <div class="destination-card" style="flex: 1; min-width: 150px;"
+                onclick="window.open('Bangkok.html', '_blank')">
+                <img class="destination-image" src="images/bangkok.avif" alt="Bangkok">
+                <div class="destination-overlay">
+                    <div>
+                        <div class="destination-title">Bangkok</div>
+                    </div>
+                </div>
+            </div>
+            <div class="destination-card" style="flex: 1; min-width: 150px;"
+                onclick="window.open('krabi.html', '_blank');">
+                <img class="destination-image" src="images/krabi.avif" alt="Kuala Lumpur">
+                <div class="destination-overlay">
+                    <div>
+                        <div class="destination-title">Krabi</div>
+                    </div>
+                </div>
+            </div>
+            <div class="destination-card" style="flex: 1; min-width: 150px;"
+                onclick="window.open('Phuket.html', '_blank')">
+                <img class="destination-image" src="images/phuket.avif" alt="Phuket">
+                <div class="destination-overlay">
+                    <div>
+                        <div class="destination-title">Phuket</div>
+                    </div>
+                </div>
+            </div>
+            <div class="destination-card" style="flex: 1; min-width: 150px;"
+                onclick="window.open('Pattaya.html', '_blank')">
+                <img class="destination-image" src="images/pattaya.avif" alt="Pattaya">
+                <div class="destination-overlay">
+                    <div>
+                        <div class="destination-title">Pattaya</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container why-choose-us">
+        <h2>Why choose Us</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <img src="images/Discover_the_possibilities.webp" alt="">
+                <h4>Discover the possibilities</h4>
+                <p>With nearly half a million attractions, hotels & more, you're sure to find joy.</p>
+            </div>
+            <div class="col-md-3">
+                <img src="images/Enjoy_deals_delights.webp" alt="">
+                <h4>Enjoy deals & delights</h4>
+                <p>Quality activities. Great prices. Plus, earn MWalk credits to save more.</p>
+            </div>
+            <div class="col-md-3">
+                <img src="images/Exploring_made_easy.webp" alt="">
+                <h4>Exploring made easy</h4>
+                <p>Book last minute, skip lines & get free cancellation for easier exploring.</p>
+            </div>
+            <div class="col-md-3">
+                <img src="images/Travel_you_can_trust.webp" alt="">
+                <h4>Travel you can trust </h4>
+                <p>Read reviews & get reliable customer support. We're with you at every step.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-column">
+            <h3>About MWalk DMC</h3>
+            <ul>
+                <img src="images/logo.jpeg" style="width: 23%;">
+                <li><a href="About us.html">About us</a></li>
+                <p style="font-weight: 1rem;">Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Neque,
+                    autem!</p>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="chiang rai.html">Chang Rai</a></li>
+                <li><a href="Bangkok.html">Bangkok</a></li>
+                <li><a href="Pattaya.html">Pattaya</a></li>
+                <li><a href="Phuket.html">Phuket</a></li>
+                <li><a href="krabi.html">Krabi</a></li>
+
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Reach us at</h3>
+            <ul>
+                <li><i class="fa-solid fa-house" style="color: #057c59;"></i> &nbsp;&nbsp;&nbsp;5,6 ADARSH COLONY, SRI
+                    GANGANAGAR, India</li>
+                <li><i class="fa-solid fa-house" style="color: #057c59;"></i> &nbsp;&nbsp;&nbsp;5,6 ADARSH COLONY, SRI
+                    GANGANAGAR, India</li>
+                <li><i class="fa-solid fa-phone" style="color: #057c59;"></i> &nbsp;&nbsp;&nbsp;+91 9928833660</li>
+                <li><i class="fa-regular fa-envelope" style="color: #057c59;"></i> &nbsp;&nbsp;&nbsp;travel@mwalkdmc.in
+                </li>
+
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        &copy; MWalk DMC. All rights reserved.
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
